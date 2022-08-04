@@ -84,7 +84,7 @@ Feel free to attempt breaking the app and play with it at your convenience!
 
 # Model Choice
 
-The model used is an ARIMA (Autoregressive integrated moving average) which are useful models when data shows non-stationarity, a property which generally holds for stock time series data. More complex forecasting models such as LSTMs were not necessary in this case since the use case as we are only predicting short-term stocks (7 days). It is therefore not necessary to use forget gates or other similar sequence models such as RNNs. 
+The model used is an ARIMA (Autoregressive integrated moving average) which are useful models when data shows non-stationarity, a property which generally holds for stock time series data. More complex forecasting models such as LSTMs were not necessary in this case since we are only predicting short-term stocks (7 days). It is therefore not necessary to use forget gates or other similar sequence models such as RNNs. 
 
 <br>
 
@@ -97,7 +97,7 @@ Finally, common evaulation metrics were used: RMSE to evaluate predictions, AIC 
 
 # Reservations/discussion
 
-Considering I was still on holidays and the time window provided, many things are still left to be done despite having a working CLI app. The first reservation is the lack of automated testing using pytest for instance to catch as many edge cases as possible. Second, the ARIMA model performs poorly when more than 2 years of data are provided, although the RMSE, BIC and AIC are satisfactory, the forecast plots are almost linear. My guess is that this issue is caused by poor design of the fourier term (m), although we infer seasonality automatically, the performance of the inference drops when we look at more data in the past where potential seasonal patterns emerge which we fail to capture and instead generalize to a line. Finally, some cosmetic issues with the plots were not fixed as well as unncessarily verbose code in the last class method (arima).
+Considering I was still on holidays and the time window provided, many things are still left to be done despite having a working CLI app. The first reservation is the lack of automated testing by using pytest for instance to catch as many edge cases as possible. Second, the ARIMA model performs poorly when more than 2 years of data are provided, although the RMSE, BIC and AIC are satisfactory, the forecast plots are almost linear. My guess is that this issue is caused by poor design of the fourier term (m), although we infer seasonality automatically, the performance of the inference drops when we look at more data in the past where potential seasonal patterns emerge which we fail to capture and instead generalize to a line. Finally, some cosmetic issues with the plots were not fixed as well as unncessarily verbose code in the last class method (arima).
 
 <br>
 
