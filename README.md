@@ -80,7 +80,6 @@ python main.py -start 2015-01-01 -end 2015-02-28 -database WIKI -dataset FB
 python main.py -start 2010-01-01 -end 2020-01-01 -database WIKI -dataset FB
 python main.py -start 2015-01-01 -end 2015-02-28 -database WIKI -dataset TSLA
 python main.py -start 2010-01-01 -end 2020-01-01 -database WIKI -dataset TSLA
-
 ```
 Feel free to attempt breaking the app and play with it at your convenience!
 
