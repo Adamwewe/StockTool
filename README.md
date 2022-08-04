@@ -9,7 +9,7 @@ This small trivial CLI app has been built over the course of 6 hours during my v
 
 <p> - <b> Calculate stock returns </b> 
 
-![Alt text](return.png "RM_IMGs/return.png")
+![Alt text](RM_IMGs/return.png)
 
 <p> - <b> Calculate maximum drawdown</b>
 
