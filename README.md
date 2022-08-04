@@ -13,21 +13,21 @@ This small trivial CLI app has been built over the course of 6 hours during my v
 
 <p> - <b> Calculate maximum drawdown</b>
 
-![Alt text](drawdown.png "RM_IMGs/drawdown.png")
+![Alt text](RM_IMGs/drawdown.png)
 
 <p> - <b> Generate 7-day forecasts </b>  
 
-![Alt text](forecast.png "RM_IMGs/forecast.png")
+![Alt text](RM_IMGs/forecast.png)
 
 
 The above four main goals were successfully fulfilled with the below features:
 
 <p> - <b> Exception handled and safe user input (for basic edge cases only considering the limited time I had)</b> 
 
-![Alt text](EH1.png "RM_IMGs/EH1.png")
-![Alt text](EH2.png "RM_IMGs/EH2.png")
-![Alt text](EH3.png "RM_IMGs/EH3.png")
-![Alt text](EH4.png"RM_IMGs/EH4.png")
+![Alt text](RM_IMGs/EH1.png)
+![Alt text](RM_IMGs/EH2.png)
+![Alt text](RM_IMGs/EH3.png)
+![Alt text](RM_IMGs/EH4.png)
 
 
 <p> - <b> Stock data retrieval from the Nasdaq API</b> 
