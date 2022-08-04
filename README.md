@@ -15,9 +15,7 @@ This small trivial CLI app has been built over the course of 6 hours during my v
 
 ![Alt text](RM_IMGs/drawdown.png)
 
-<p> - <b> Generate 7-day forecasts </b>  
-
-![Alt text](RM_IMGs/forecast.png)
+<p> - <b> Generate 7-day forecasts (see plots folder) </b>  
 
 
 The above four main goals were successfully fulfilled with the below features:
