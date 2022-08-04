@@ -4,7 +4,7 @@ This small trivial CLI app has been built over the course of 6 hours during my v
 
 <p> - <b> Make a CLI App </b> 
 
-![Alt text](CLI_pres.png "RM_IMGs/CLI_pres.png")
+![Alt text](RM_IMGs/CLI_pres.png)
 
 
 <p> - <b> Calculate stock returns </b> 
