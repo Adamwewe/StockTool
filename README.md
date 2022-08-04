@@ -20,7 +20,7 @@ This small trivial CLI app has been built over the course of 6 hours during my v
 
 The above four main goals were successfully fulfilled with the below features:
 
-<p> - <b> Exception handled and safe user input (for basic edge cases only considering the limited time I had)</b> 
+<p> - <b> Exception handled and safe user input (for basic edge cases only)</b> 
 
 ![Alt text](RM_IMGs/EH1.png)
 ![Alt text](RM_IMGs/EH2.png)
